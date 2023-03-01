@@ -89,12 +89,13 @@ animation="property: position; to:-40.435 20.33 4.221 ; startEvents: click; dur:
 
 <!-- BIG RED BUTTON -->
 <a-entity
-event-set__tarpos="_event: click; _target: #pumpkin; position: -40.435 20.33 4.221; dur; 1000 "
-event-set__tarpos="_event: click; _target: #pumpkin; rotation: -180 0 0; dur; 1000 "
-event-set__tarpos="_event: click; _target: #cross2; position: 0.019 -1.723 1.794 ; dur; 1000"
-event-set__tarpos="_event: click; _target: #cross; rotation: -40 0 0; dur; 1000"
+
 >
     <a-box id="big" color="red" position="-4.300 0.454 6.219" scale="1 1 1"
+    animation__2="property: position; to:-40.435 20.33 4.221 ; startEvents: click; dur:5000; id: kin"
+    animation__3="property: rotation; to: -180 0 0 ; startEvents: click; dur:5000; id: pump;"
+    animation__4="property: position; to: 0.019 -1.723 1.794 dur: 1000; startEvents: click; id:cross2;"
+    animation__5="property: rotation; to: -40 0 0; dur: 1000; startEvents: click; id: cross;"
 ></a-box>
         
         
